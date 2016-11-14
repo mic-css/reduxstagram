@@ -14,11 +14,11 @@ const addComment = (postId, author, comment) => {
   };
 };
 
-const removeComment = (postId, index) => {
+const removeComment = (postId, i) => {
   return {
     type: 'REMOVE_COMMENT',
     postId,
-    index
+    i
   };
 };
 
